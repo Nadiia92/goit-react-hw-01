@@ -1,0 +1,87 @@
+.father {
+  padding-top: 20px;
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.children {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  font-size: 17px;
+  letter-spacing: 0.02em;
+  width: 580px;
+  border: 3px solid;
+  color: black;
+  border-radius: 10px;
+  padding: 20px 0 0 0;
+}
+
+.img {
+  width: 250px;
+  border-radius: 50%;
+  margin-bottom: 30px;
+  background-color: rgb(32, 33, 37);
+}
+
+.tagLocParagraf {
+  margin: 0;
+  margin-bottom: 20px;
+  font-family: sans-serif;
+  font-size: 38px;
+  color: rgb(123, 123, 147);
+}
+
+.nameParagraf {
+  font-family: sans-serif;
+  font-size: xxx-large;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  margin: 0;
+  margin-bottom: 30px;
+}
+
+.list {
+  display: flex;
+  list-style: none;
+  width: 580px;
+  margin: 0;
+  border-top: 3px solid black;
+  justify-content: space-around;
+  padding: 0;
+  background-color: rgba(199, 204, 209, 0.712);
+}
+
+.li {
+  display: flex;
+  flex-direction: column;
+  font-size: 25px;
+  align-items: center;
+  padding: 28px 40px;
+}
+
+.descendantLiBorder {
+  display: flex;
+  flex-direction: column;
+  font-size: 25px;
+  align-items: center;
+  border-right: 3px solid black;
+  border-left: 3px solid black;
+  padding: 28px 40px;
+}
+
+.number {
+  font-family: sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.span {
+  margin-bottom: 15px;
+  font-family: sans-serif;
+  letter-spacing: 0.02em;
+  font-size: 30px;
+}
